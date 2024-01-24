@@ -7,6 +7,12 @@
     <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\Classes\HelloWorldScene.cpp">
       <Filter>Source Files\Classes</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\Classes\GraphicsScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\Classes\TouchScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\proj.win32\main.cpp">
       <Filter>Source Files\proj.win32</Filter>
     </ClCompile>
@@ -21,6 +27,12 @@
     <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Classes\HelloWorldScene.h">
       <Filter>Source Files\Classes</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Classes\GraphicsScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Classes\TouchScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\proj.win32\main.h">
       <Filter>Source Files\proj.win32</Filter>
     </ClInclude>
@@ -33,8 +45,20 @@
     <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\CloseSelected.png">
       <Filter>Resources</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\HelloWorld.png">
-      <Filter>Resources</Filter>
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\background\HelloWorld.png">
+      <Filter>Resources\background</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\background\backgroundColorFall.png">
+      <Filter>Resources\background</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\background\backgroundColorForest.png">
+      <Filter>Resources\background</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\background\backgroundColorGrass.png">
+      <Filter>Resources\background</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\fonts\Diablo Heavy.ttf">
+      <Filter>Resources\fonts</Filter>
     </ClInclude>
     <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\fonts\Marker Felt.ttf">
       <Filter>Resources\fonts</Filter>
@@ -44,6 +68,36 @@
     </ClInclude>
     <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\res\.gitkeep">
       <Filter>Resources\res</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\tilesheets\character_zombie_sheet.png">
+      <Filter>Resources\tilesheets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\tilesheets\female_tilesheet.png">
+      <Filter>Resources\tilesheets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\tilesheets\flat.png">
+      <Filter>Resources\tilesheets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\tilesheets\pixel_style2.png">
+      <Filter>Resources\tilesheets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\tilesheets\roguelikeChar_transparent.png">
+      <Filter>Resources\tilesheets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\tilesheets\roguelikeCity_magenta.png">
+      <Filter>Resources\tilesheets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\tilesheets\sheet.png">
+      <Filter>Resources\tilesheets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\tilesheets\soldier_tilesheet.png">
+      <Filter>Resources\tilesheets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\tilesheets\spritesheet_default.png">
+      <Filter>Resources\tilesheets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\tilesheets\tanks_spritesheetDefault.png">
+      <Filter>Resources\tilesheets</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -58,11 +112,17 @@
     <Filter Include="Resources">
       <UniqueIdentifier>{20B319E2-D720-3F8F-8AB5-4CA4043A9476}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resources\background">
+      <UniqueIdentifier>{6B5D253F-9601-3D82-9170-741E1A74C20B}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Resources\fonts">
       <UniqueIdentifier>{CC7DB778-AA67-38CE-AB53-FF38E4451664}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resources\res">
       <UniqueIdentifier>{85A1CEFC-8B2A-3BBE-BD8F-43E4632EF29D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\tilesheets">
+      <UniqueIdentifier>{9CF86F36-E977-34DF-8EA1-F4FE198F71A0}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{C65DE11F-B180-3AA0-8D00-6D8AB873F20A}</UniqueIdentifier>
