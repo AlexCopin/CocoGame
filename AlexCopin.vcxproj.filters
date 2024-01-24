@@ -4,14 +4,20 @@
     <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\Classes\AppDelegate.cpp">
       <Filter>Source Files\Classes</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\Classes\HelloWorldScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\Classes\Scenes\HelloWorldScene.cpp">
+      <Filter>Source Files\Classes\Scenes</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\Classes\GraphicsScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\Classes\Scenes\GraphicsScene.cpp">
+      <Filter>Source Files\Classes\Scenes</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\Classes\TouchScene.cpp">
-      <Filter>Source Files\Classes</Filter>
+    <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\Classes\Scenes\TouchScene.cpp">
+      <Filter>Source Files\Classes\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\Classes\Scenes\KeyboardScene.cpp">
+      <Filter>Source Files\Classes\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\Classes\Character\Character.cpp">
+      <Filter>Source Files\Classes\Character</Filter>
     </ClCompile>
     <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\proj.win32\main.cpp">
       <Filter>Source Files\proj.win32</Filter>
@@ -19,19 +25,28 @@
     <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\cocos2d\cocos\precheader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Classes\Scenes\GameScene.cpp">
+      <Filter>Source Files\Classes\Scenes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Classes\AppDelegate.h">
       <Filter>Source Files\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Classes\HelloWorldScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Classes\Scenes\HelloWorldScene.h">
+      <Filter>Source Files\Classes\Scenes</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Classes\GraphicsScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Classes\Scenes\GraphicsScene.h">
+      <Filter>Source Files\Classes\Scenes</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Classes\TouchScene.h">
-      <Filter>Source Files\Classes</Filter>
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Classes\Scenes\TouchScene.h">
+      <Filter>Source Files\Classes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Classes\Scenes\KeyboardScene.h">
+      <Filter>Source Files\Classes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Classes\Character\Character.h">
+      <Filter>Source Files\Classes\Character</Filter>
     </ClInclude>
     <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\proj.win32\main.h">
       <Filter>Source Files\proj.win32</Filter>
@@ -99,6 +114,9 @@
     <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\tilesheets\tanks_spritesheetDefault.png">
       <Filter>Resources\tilesheets</Filter>
     </ClInclude>
+    <ClInclude Include="Classes\Scenes\GameScene.h">
+      <Filter>Source Files\Classes\Scenes</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Projects\AlexCopin\AlexCopin\CMakeLists.txt" />
@@ -129,6 +147,12 @@
     </Filter>
     <Filter Include="Source Files\Classes">
       <UniqueIdentifier>{BB8AB27F-71BB-356E-9356-C386AF402F81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\Character">
+      <UniqueIdentifier>{C4FF1E2E-83E7-3AB0-94C0-F78F491AEF5A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\Scenes">
+      <UniqueIdentifier>{770B1317-3188-39AF-B751-F6D2FFD9492A}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\proj.win32">
       <UniqueIdentifier>{5AACD09D-1B6B-3D6E-B425-5713531866B3}</UniqueIdentifier>

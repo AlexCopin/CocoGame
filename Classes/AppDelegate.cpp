@@ -23,9 +23,7 @@
  ****************************************************************************/
 
 #include "AppDelegate.h"
-#include "HelloWorldScene.h"
-#include "GraphicsScene.h"
-#include "TouchScene.h"
+#include "Scenes/GameScene.h"
 
 // #define USE_AUDIO_ENGINE 1
 
@@ -74,11 +72,11 @@ bool AppDelegate::applicationDidFinishLaunching() {
   auto director = Director::getInstance();
   auto glview = director->getOpenGLView();
   if (!glview) {
-    glview = GLViewImpl::createWithFullScreen("Alex Copin Game");
+    glview = GLViewImpl::createWithRect("Alex Copin Game", cocos2d::Rect({ 0,0 }, {1600,900}));
     director->setOpenGLView(glview);
   }
 
-  auto scene = TouchScene::createScene();
+  auto scene = GameScene::createScene();
   director->runWithScene(scene);
 
   return true;
