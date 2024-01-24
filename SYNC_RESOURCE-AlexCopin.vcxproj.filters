@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\AlexCopin\AlexCopin\CMakeFiles\b5c285f637ce68100cba68e00d0a1fb5\SYNC_RESOURCE-AlexCopin.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\AlexCopin\AlexCopin\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Projects\AlexCopin\AlexCopin\CMakeFiles\SYNC_RESOURCE-AlexCopin" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B59B5FE4-1B1D-37D4-9D1C-7568BE11396D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
