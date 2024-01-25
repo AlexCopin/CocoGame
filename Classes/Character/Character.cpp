@@ -80,6 +80,7 @@ bool Character::onCollision(PhysicsContact& contact)
     }
     if (playerShape == contact.getShapeA() && dynamic_cast<Bomb*>(ownerContact)) 
     {
+      ScoreManager::AddToScore(-50);
       ownerContact->removeFromParent();
       CCLOG("Collision with bomb");
     }
