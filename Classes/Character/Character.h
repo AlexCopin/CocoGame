@@ -12,7 +12,7 @@ class Character : public cocos2d::Node
 {
 public:
   Character();
-  float speed = 500.0f;
+  float speed = 1000.f;
   cocos2d::Sprite* _spritePlayer;
 
   float direction = 0;
@@ -21,7 +21,9 @@ public:
   void MoveRight();
   void StopMoving();
 
-
+  cocos2d::Director* _director;
   virtual bool init() override;
   virtual void update(float delta) override;
+  virtual bool onCollision(cocos2d::PhysicsContact& contact);
+
 };

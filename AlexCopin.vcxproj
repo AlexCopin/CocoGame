@@ -117,8 +117,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>
-      </Message>
+      <Message>												</Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Projects/AlexCopin/AlexCopin/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll C:/Projects/AlexCopin/AlexCopin/bin/AlexCopin/Debug/libssl-1_1.dll
 if %errorlevel% neq 0 goto :cmEnd
@@ -284,8 +283,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>
-      </Message>
+      <Message>												</Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Projects/AlexCopin/AlexCopin/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll C:/Projects/AlexCopin/AlexCopin/bin/AlexCopin/Release/libssl-1_1.dll
 if %errorlevel% neq 0 goto :cmEnd
@@ -451,8 +449,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>
-      </Message>
+      <Message>												</Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Projects/AlexCopin/AlexCopin/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll C:/Projects/AlexCopin/AlexCopin/bin/AlexCopin/MinSizeRel/libssl-1_1.dll
 if %errorlevel% neq 0 goto :cmEnd
@@ -617,8 +614,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>
-      </Message>
+      <Message>												</Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Projects/AlexCopin/AlexCopin/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll C:/Projects/AlexCopin/AlexCopin/bin/AlexCopin/RelWithDebInfo/libssl-1_1.dll
 if %errorlevel% neq 0 goto :cmEnd
@@ -809,23 +805,25 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Classes\Scenes\GameScene.cpp" />
     <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Classes\AppDelegate.h" />
-    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Classes\Scenes\HelloWorldScene.h" />
-    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Classes\Scenes\GraphicsScene.h" />
-    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Classes\Scenes\TouchScene.h" />
-    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Classes\Scenes\KeyboardScene.h" />
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Classes\Scenes\GameScene.h" />
     <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Classes\Character\Character.h" />
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Classes\Entities\PhysicEntity.h" />
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Classes\Entities\EntitySpawner.h" />
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Classes\Entities\Bonus.h" />
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Classes\Entities\Bomb.h" />
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Classes\ScoreManager.h" />
     <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\proj.win32\main.h" />
     <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\proj.win32\resource.h" />
     <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\Classes\AppDelegate.cpp" />
-    <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\Classes\Scenes\HelloWorldScene.cpp" />
-    <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\Classes\Scenes\GraphicsScene.cpp" />
-    <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\Classes\Scenes\TouchScene.cpp" />
-    <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\Classes\Scenes\KeyboardScene.cpp" />
+    <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\Classes\Scenes\GameScene.cpp" />
     <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\Classes\Character\Character.cpp" />
+    <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\Classes\Entities\PhysicEntity.cpp" />
+    <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\Classes\Entities\EntitySpawner.cpp" />
+    <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\Classes\Entities\Bonus.cpp" />
+    <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\Classes\Entities\Bomb.cpp" />
+    <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\Classes\ScoreManager.cpp" />
     <ClCompile Include="C:\Projects\AlexCopin\AlexCopin\proj.win32\main.cpp" />
-    <ClInclude Include="Classes\Scenes\GameScene.h" />
     <ResourceCompile Include="C:\Projects\AlexCopin\AlexCopin\proj.win32\game.rc" />
     <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\CloseNormal.png" />
     <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\CloseSelected.png" />
@@ -833,6 +831,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\background\backgroundColorFall.png" />
     <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\background\backgroundColorForest.png" />
     <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\background\backgroundColorGrass.png" />
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\bomb.png" />
+    <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\bonus.png" />
     <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\fonts\Diablo Heavy.ttf" />
     <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\fonts\Marker Felt.ttf" />
     <ClInclude Include="C:\Projects\AlexCopin\AlexCopin\Resources\fonts\arial.ttf" />

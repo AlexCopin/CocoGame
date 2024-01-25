@@ -1,12 +1,21 @@
 #include "GameScene.h"
+#include "GameScene.h"
 #include "Character/Character.h"
+#include "Entities/EntitySpawner.h"
+#include "ScoreManager.h"
 
 USING_NS_CC;
 
 cocos2d::Scene* GameScene::createScene()
 {
-  auto scene = Scene::create();
+  auto scene = Scene::createWithPhysics();
+  scene->getPhysicsWorld()->setGravity(Vect(0, 0));
   auto layer = GameScene::create();
+
+
+#if COCOS2D_DEBUG
+  scene->getPhysicsWorld()->setDebugDrawMask(PhysicsWorld::DEBUGDRAW_ALL);
+#endif
 
   scene->addChild(layer);
   return scene;
@@ -28,6 +37,13 @@ bool GameScene::init()
   this->addChild(sprite, 0);
   //---------
 
+  //Score
+  new ScoreManager;
+  addChild(ScoreManager::getInstance());
+  ScoreManager::getInstance()->init();
+  //--
+
+
   //---Init Character
   player = new Character();
   player->init();
@@ -35,6 +51,13 @@ bool GameScene::init()
   addChild(player, 1);
   player->scheduleUpdate();
   //-------
+
+  //Init spawner
+  EntitySpawner* spawner = new EntitySpawner;
+  addChild(spawner, 1);
+  spawner->init();
+  spawner->scheduleUpdate();
+  //---
 
   InitKeyboardListener();
 
@@ -44,6 +67,10 @@ bool GameScene::init()
   this->scheduleUpdate();
 
   return true;
+}
+
+void GameScene::menuCloseCallback(cocos2d::Ref* pSender)
+{
 }
 
 void GameScene::InitKeyboardListener()

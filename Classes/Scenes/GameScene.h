@@ -24,4 +24,6 @@ public:
 
   //Character
   class Character* player;
+  //score
+  int _score = 0;
 };
